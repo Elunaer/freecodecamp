@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="survey_form.css">
+</head>
+<main>
+
+    <body>
+        <h1 id="title">Survey</h1>
+        <p id="description">A survey about pets</p>
+        <form id="survey-form">
+        <div id="form-fields">
+            <label for="name" id="name-label">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Name" required><br>
+            <label for="email" id="email-label">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+            <h5>How many pets would you like?</h5>
+            <input type="number" id="number" name="number" placeholder="Enter a number" min="1" max="15" required><br>
+        </div>
+        <div id="boxes">
+            <h5 class="checkbox-header">Which of the following pets do you have?</h5>
+            <div class="checkbox-group">
+                <input type="checkbox" id="checkbox" name="cat" value="cat">
+                <label for="cat" id="cat-label" name="cat">Cat</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="checkbox" name="dog" value="dog">
+                <label for="dog" id="dog-label" name="dog">Dog</label><br>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="checkbox" name="horse" value="horse">
+                <label for="horse" id="horse-label" name="horse">Horse</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="checkbox" name="reptile" value="reptile">
+                <label for="reptile" id="reptile-label" name="reptile">Reptile</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="checkbox" name="fish" value="fish">
+                <label for="fish" id="fish-label" name="fish">Fish</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="checkbox" name="other" value="other">
+                <label for="other" id="other-label" name="other">Other</label>
+            </div>
+
+            <h5 class="dropdown-header">How many pets do you have currently?</h5>
+            <select id="dropdown" name="dropdown">
+            <option></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5+">5+</option>
+            </select><br>
+        </div>
+        <h5 class="radio-header">Which areas would you like to know more about?</h5>
+            <div class="radio-group">
+                <input type="radio" id="weight" name="info" value="4">
+                <label for="weight">Weight</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" id="feeding" name="info" value="feeding">
+                <label for="feeding">Feeding</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" id="health" name="info" value="health">
+                <label for="health">Health</label>
+                </div>
+            <div class="radio-group">
+                <input type="radio" id="exercise" name="info" value="exercise">
+                <label for="exercise">Exercise</label>
+            
+            <h5>Further information or comments</h5>
+        <label for="additional-comments" placeholder="Additional comments">Any additional comments?</label><br>
+        <textarea id="additional-comments" name="additional-comments"></textarea><br>
+        <input type="submit" id="submit" value="submit">
+        </form>
+    </body>
+
+</main>

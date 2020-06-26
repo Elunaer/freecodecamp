@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t31.0-8/p720x720/1496273_603484883022659_481978227_o.jpg?_nc_cat=104&_nc_sid=85a577&_nc_ohc=cQWtBb1r8AwAX8zOCqF&_nc_ht=scontent-lhr8-1.xx&_nc_tp=6&oh=2cafdb8255d447eeb4ead99527590f7f&oe=5F1D237A");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+main {
+    margin: auto;
+}
+#survey-form {
+    background: white;
+    opacity: 0.7;
+    width: 500px;
+    margin: auto;
+
+}
+
+#title {
+    color: white;
+    text-align: center;
+}
+
+#description{
+    color: white;
+    text-align: center;
+}
+
+#submit {
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    padding-left: 10px;
+}
+
+#label-dropdown {
+    margin-top: 10px;
+}
+
+#boxes {
+    margin-top: 10px;
+}
+
+#checkbox-question {
+    margin: 10px 0px 10px 0px;
+    
+}
+
+h5 {
+    margin: 5px 0px 5px 0px;
+}
