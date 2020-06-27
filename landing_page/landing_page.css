@@ -1,0 +1,26 @@
+#nav-bar {
+    position: fixed;
+}
+
+#submit {
+    margin: 15px 0px 15px 0px;
+    border: solid purple;
+}
+
+#name {
+    margin: 15px 0px 15px 0px;
+    border: solid blue;
+}
+
+#email {
+    margin: 15px 0px 15px 0px;
+    border: solid blueviolet
+}
+
+@media screen and (max-width: 600px) {
+    #nav-bar {
+    float: none;
+    width: 100%;
+    display: flex;
+    }
+}
