@@ -1,0 +1,26 @@
+h3 {
+  color: purple;
+}
+
+.nav-link {
+  margin: 10px;
+  border-style: groove;
+  color: lightseagreen;
+  border-radius: 1px;
+  padding: 5px;
+  
+}
+
+#welcome-section {
+  height: 100vh;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  #navbar {
+      position: fixed;
+      float: left;
+      width: 100%;
+      display: flex;
+  }
+}

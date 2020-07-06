@@ -1,0 +1,36 @@
+.nav-link {
+    margin: 10px 10px 10px 10px;
+}
+
+#fg-pic {
+    width: 100%;
+    background-size: contain;
+}
+
+#info {
+    color: red;
+}
+
+#fbreeding {
+    color: #e75480;
+}
+
+#dchecklist {
+    color: green;
+}
+
+#tcalc {
+    color: blue;
+}
+
+#cprogress {
+    color: darkviolet;
+}
+@media screen and (max-width: 600px) {
+    #navbar {
+        position: fixed;
+        float: left;
+        width: 100%;
+        display: flex;
+    }
+}
